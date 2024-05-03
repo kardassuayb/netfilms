@@ -12,9 +12,24 @@ const Header = () => {
           <FaPlayCircle /> NETFILMS
         </Link>
         <nav className="flex gap-12 text-[#fafafa] font-bold tracking-wider">
-          <Link href="/movies">MOVIES</Link>
-          <Link href="/series">SERIES</Link>
-          <Link href="/kids">KIDS</Link>
+          <Link
+            className="hover:text-[#fafafab4] transition-all duration-300 ease-out"
+            href="/movies"
+          >
+            MOVIES
+          </Link>
+          <Link
+            className="hover:text-[#fafafab4] transition-all duration-300 ease-out"
+            href="/series"
+          >
+            SERIES
+          </Link>
+          <Link
+            className="hover:text-[#fafafab4] transition-all duration-300 ease-out"
+            href="/kids"
+          >
+            KIDS
+          </Link>
         </nav>
       </div>
     </header>
