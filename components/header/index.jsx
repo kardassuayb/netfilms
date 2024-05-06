@@ -14,19 +14,19 @@ const Header = () => {
         <nav className="flex gap-12 text-[#fafafa] font-bold tracking-wider">
           <Link
             className="hover:text-[#fafafab4] transition-all duration-300 ease-out"
-            href="/movies"
+            href="/"
           >
             MOVIES
           </Link>
           <Link
             className="hover:text-[#fafafab4] transition-all duration-300 ease-out"
-            href="/series"
+            href="/"
           >
             SERIES
           </Link>
           <Link
             className="hover:text-[#fafafab4] transition-all duration-300 ease-out"
-            href="/kids"
+            href="/"
           >
             KIDS
           </Link>
